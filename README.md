@@ -19,9 +19,15 @@ and keeps existing job configurations.
 
 ## Installation
 
-Download the `.hpi` from the latest
-[build artifacts](https://github.com/Simplis-fr/awseb-deployment-plugin/actions/workflows/build.yml),
+Download `awseb-deployment-plugin.hpi` from the latest
+[release](https://github.com/Simplis-fr/awseb-deployment-plugin/releases/latest),
 then in Jenkins: *Manage Jenkins → Plugins → Advanced settings → Deploy Plugin*.
+
+## Releases
+
+Every merge into `master` is tagged automatically with a CalVer version `vYYYY.MM.DD.N`
+(`N` = that day's merge sequence) and published as a GitHub release with the `.hpi` built
+at that version.
 
 ## Usage
 
